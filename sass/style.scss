@@ -19,13 +19,9 @@ $color3: #1a252f;
 #barra-menu{
 	       background: $color1;
 	       padding: 20px;
+         border: none;
 
-	div{
-	   border: none;
-	   box-shadow: none;
-	}
-    
-    button{
+      button{
           background: none;
           transition: 0.2s;
            &:hover{
@@ -37,7 +33,7 @@ $color3: #1a252f;
     	   }
     }
 	
-	span{
+  span{
 		color: white;
     }
 

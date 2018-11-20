@@ -2,10 +2,7 @@
 #barra-menu {
   background: #2c3e50;
   padding: 20px;
-}
-#barra-menu div {
   border: none;
-  box-shadow: none;
 }
 #barra-menu button {
   background: none;

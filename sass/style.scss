@@ -1,0 +1,187 @@
+@import url('https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,700');
+
+$font1: "Montserrat";
+$font2: "Lato";
+
+$color1: #2c3e50;
+$color2: #18bc9c;	
+$color3: #1a252f;
+
+@mixin border-radius($radio){
+  -moz-border-radius:$radio;
+  -o-border-radius:$radio;
+  -ms-border-radius:$radio;
+  -webkit-border-radius:$radio;
+  border-radius:$radio;
+}
+
+
+#barra-menu{
+	       background: $color1;
+	       padding: 20px;
+
+	div{
+	   border: none;
+	   box-shadow: none;
+	}
+    
+    button{
+          background: none;
+          transition: 0.2s;
+           &:hover{
+             border: 1px solid $color2;
+           }
+    	
+            &:hover span{
+    	      color: $color2;
+    	   }
+    }
+	
+	span{
+		color: white;
+    }
+
+	a{
+   color: white;
+   font-family: $font1;
+   font-weight: 700;
+	 font-weight: bold;
+	 letter-spacing: 1px;
+	 font-size: 24px;
+	   @media (max-width: 991px){
+		 font-size: 18px;
+	   }
+    }
+
+	li{
+	   a{
+		 font-size: 16px;
+            @media (max-width: 1018px){
+		      font-size: 13px;
+	      }
+
+			&:hover{
+			  color: $color2;
+            }
+		}
+	}
+
+}
+
+#sec-1{
+	  padding-top: 180px;
+	  background: $color2;
+	  padding-bottom: 100px;
+	  color: white;
+
+     h1{
+       font-family: $font1;
+	     font-weight: 700;
+	     font-size: 80px;
+        @media (max-width: 991px){
+		   font-size: 56px;
+	    }
+	   }
+        span{
+    	     font-size: 32px;
+    	     padding-bottom: 32px;
+        }
+
+
+	   hgroup{
+       span{
+        font-size: 16px;
+        padding: 0px 2px;
+       }
+       h2, h3, h4{
+        display: inline-block;
+        font-size: 28px;
+        font-family: $font2;
+        font-weight: 300;
+           @media (max-width: 991px){
+          font-size: 24px;
+         }
+    }
+     }
+}
+
+
+
+#sec-5{
+	  background: $color1;
+	  color: white;
+	  padding: 56px 0px;
+
+	h2{
+	  font-size: 24px;
+    font-family: $font1;
+	  font-weight: 700;
+	  padding-bottom: 16px;
+        @media (max-width: 991px){
+		  font-size: 24px;
+	    }
+	} 
+
+	ul{
+    display: flex;
+    justify-content: space-between;
+    li{
+      width: 56px;
+      @include border-radius(50%);
+      border: 2px solid white;
+      transition: 0.3s;
+        &:hover{
+          background: white;
+        }
+
+        &:hover a{
+          color: black;
+        }
+    
+      a{
+        align-self: center;
+        display: inline-block;
+        padding: 8px 0px;
+        color: white;
+        font-size: 24px;
+        }
+    }
+}
+
+    address{
+         font-family: $font2;
+         font-weight: 300;
+    	   font-size: 16px;
+    	   letter-spacing: 1px;
+    }
+
+    p{
+     font-family: $font2;
+     font-weight: 400;
+     font-size: 20px;
+     letter-spacing: 1px;
+       @media (max-width: 535px){
+    	  font-size: 16px;
+       }
+
+	  a{
+		color: $color2;
+          &:hover{
+		 	     color: darken($color2, 10%);
+           text-decoration: none;
+		  }
+		}
+  }
+
+}
+
+#sec-6{
+	  background: $color3;
+	  padding: 16px 0px;
+    h3{
+      color: white;
+      font-family: $font2;
+      font-size: 14px;
+    }
+}
+

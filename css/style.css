@@ -1,0 +1,162 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,700");
+#barra-menu {
+  background: #2c3e50;
+  padding: 20px;
+}
+#barra-menu div {
+  border: none;
+  box-shadow: none;
+}
+#barra-menu button {
+  background: none;
+  transition: 0.2s;
+}
+#barra-menu button:hover {
+  border: 1px solid #18bc9c;
+}
+#barra-menu button:hover span {
+  color: #18bc9c;
+}
+#barra-menu span {
+  color: white;
+}
+#barra-menu a {
+  color: white;
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-weight: bold;
+  letter-spacing: 1px;
+  font-size: 24px;
+}
+@media (max-width: 991px) {
+  #barra-menu a {
+    font-size: 18px;
+  }
+}
+#barra-menu li a {
+  font-size: 16px;
+}
+@media (max-width: 1018px) {
+  #barra-menu li a {
+    font-size: 13px;
+  }
+}
+#barra-menu li a:hover {
+  color: #18bc9c;
+}
+
+#sec-1 {
+  padding-top: 180px;
+  background: #18bc9c;
+  padding-bottom: 100px;
+  color: white;
+}
+#sec-1 h1 {
+  font-family: "Montserrat";
+  font-weight: 700;
+  font-size: 80px;
+}
+@media (max-width: 991px) {
+  #sec-1 h1 {
+    font-size: 56px;
+  }
+}
+#sec-1 span {
+  font-size: 32px;
+  padding-bottom: 32px;
+}
+#sec-1 hgroup span {
+  font-size: 16px;
+  padding: 0px 2px;
+}
+#sec-1 hgroup h2, #sec-1 hgroup h3, #sec-1 hgroup h4 {
+  display: inline-block;
+  font-size: 28px;
+  font-family: "Lato";
+  font-weight: 300;
+}
+@media (max-width: 991px) {
+  #sec-1 hgroup h2, #sec-1 hgroup h3, #sec-1 hgroup h4 {
+    font-size: 24px;
+  }
+}
+
+#sec-5 {
+  background: #2c3e50;
+  color: white;
+  padding: 56px 0px;
+}
+#sec-5 h2 {
+  font-size: 24px;
+  font-family: "Montserrat";
+  font-weight: 700;
+  padding-bottom: 16px;
+}
+@media (max-width: 991px) {
+  #sec-5 h2 {
+    font-size: 24px;
+  }
+}
+#sec-5 ul {
+  display: flex;
+  justify-content: space-between;
+}
+#sec-5 ul li {
+  width: 56px;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  -ms-border-radius: 50%;
+  -webkit-border-radius: 50%;
+  border-radius: 50%;
+  border: 2px solid white;
+  transition: 0.3s;
+}
+#sec-5 ul li:hover {
+  background: white;
+}
+#sec-5 ul li:hover a {
+  color: black;
+}
+#sec-5 ul li a {
+  align-self: center;
+  display: inline-block;
+  padding: 8px 0px;
+  color: white;
+  font-size: 24px;
+}
+#sec-5 address {
+  font-family: "Lato";
+  font-weight: 300;
+  font-size: 16px;
+  letter-spacing: 1px;
+}
+#sec-5 p {
+  font-family: "Lato";
+  font-weight: 400;
+  font-size: 20px;
+  letter-spacing: 1px;
+}
+@media (max-width: 535px) {
+  #sec-5 p {
+    font-size: 16px;
+  }
+}
+#sec-5 p a {
+  color: #18bc9c;
+}
+#sec-5 p a:hover {
+  color: #128f76;
+  text-decoration: none;
+}
+
+#sec-6 {
+  background: #1a252f;
+  padding: 16px 0px;
+}
+#sec-6 h3 {
+  color: white;
+  font-family: "Lato";
+  font-size: 14px;
+}
+
+/*# sourceMappingURL=style.css.map */

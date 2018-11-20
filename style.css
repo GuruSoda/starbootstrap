@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,700");
+
+
+.titulo1 {
+	font-family: "Montserrat";
+	text-align: center;	
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 30px 30px;
+	font-style: Noto+sans+sc;
+
+}
+
+.col-xs-12 {
+	text-align: center;	
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 50px 613px;
+
+}
+
+.imagen{
+	text-align: center;
+	width: 800px;
+	margin: 50px auto;
+	display: block;
+
+}
+

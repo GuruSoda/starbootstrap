@@ -1,50 +1,28 @@
-body{
-	background-color: #18bc9c;
-	color: white;
-	font-family: 'Montserrat', sans-serif;
-	font-size: 20px;
+@import url("https://fonts.googleapis.com/css?family=Lato:400,400i,700,700i|Montserrat:400,700");
 
-}
 
-h3{
-	font-size: 35px;
-	text-align: center;
+.titulo1 {
+	font-family: "Montserrat";
+	text-align: center;	
 	text-transform: uppercase;
-	margin-top: 20px;
-}
-.padre{
-	display: flex;
-	justify-content: center;
+	font-size: 30px;
+	margin: 30px 30px;
 
 }
 
-.botones-download li:hover{
+.col-xs-12 {
+	text-align: center;	
+	text-transform: uppercase;
+	font-size: 30px;
+	margin: 50px 613px;
+
+}
+
+.imagen{
 	text-align: center;
-	display:inline-block;
-	background:white;
-	width: 40px;
-	height: 40px;
-	text-align: center;
-	padding-top: 5px;
-	box-sizing: border-box;
-	cursor: pointer;
-  	color: #333;
-  	margin-bottom: 15px;
-
-	
-}
-
-.container{
-	max-width: 900px;
-	margin: auto;
+	width: 800px;
+	margin: 50px auto;
+	display: block;
 
 }
 
-
-}
-
-@media (max-width: 750px){
-	.padre{
-		flex-direction: column;
-	}
-}
